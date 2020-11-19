@@ -38,10 +38,10 @@ var config = {
   db: 'mongodb://127.0.0.1/node_club_dev',
 
   // redis 配置，默认是本地
-  redis_host: '127.0.0.1',
+  redis_host: '39.106.56.132',
   redis_port: 6379,
   redis_db: 0,
-  redis_password: '',
+  redis_password: '123456',
 
   session_secret: 'node_club_secret', // 务必修改
   auth_cookie_name: 'node_club',
